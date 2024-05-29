@@ -1,0 +1,22 @@
+.example {
+   background-color: blue;
+}
+
+@media (min-width: 768px) {
+   .main-menu {
+      width: 20%;       /* Make it narrow */
+      height: 100vh;    /* Full height of the viewport */
+      position: fixed;  /* Fix it to the side */
+      padding: 2%;      /* Add padding */
+      margin: 0;        /* No margin */
+   }
+
+   .primary-content {
+      width: 70%;       /* Allow space for the .main-menu */
+      float: right;     /* Float it to the right */
+   }
+
+   img {
+      width: 60%;       /* Make images smaller */
+   }
+}

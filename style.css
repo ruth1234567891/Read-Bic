@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Playfair Display', serif;
+}
+.main-menu {
+    background-color: hsla(193, 68%, 23%, 1);
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    line-height: 3rem;
+    width: 100%;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+a {
+    background-color: hsla(41, 74%, 53%, 0.9);
+    color: hsla(286, 52%, 21%, 1);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 0.7%;
+    margin: 2%;
+    text-decoration: none;
+}
+a:hover {
+    background-color: lightgrey;
+}
+.primary.content {
+    line-height: 250%;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    color: hsla(286, 52%, 21%, 1);
+    line-height: 120%;
+}
